@@ -1,0 +1,30 @@
+<HTML>
+    <HEAD>
+    <TITLE>Ejemplo DOM</TITLE>
+    </HEAD>
+    <BODY>
+        <script type="text/javascript">
+        var libreriaJson = { "libreria": [
+        {
+            "nombre": "La biblia",
+        },
+        {
+            "nombre": "Citas del Presidente Mao Tse-Tung",
+        },
+        {
+            "nombre": "Harry Potter",
+        },
+        {
+            "nombre": "El Señor de los anillos",
+        },
+        {
+            "nombre": "Padre rico Padre pobre",
+        },
+            ] };
+            for (let step = 0; step < libreriaJson.libreria.length; step++) {
+                console.log(libreriaJson.libreria[step].nombre)
+            }
+        </script>
+
+    </BODY>
+    </HTML>

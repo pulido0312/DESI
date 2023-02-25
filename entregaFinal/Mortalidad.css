@@ -1,0 +1,83 @@
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
+      .axis path, .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+
+      .axis {
+      	font-size: 18px;
+      }
+
+      .caja_checkboxes {
+        float: left;
+        margin-left: 100px;
+        margin-top: 260px;
+        margin-right: 80px;
+        font-size: 15px;
+        transform: scale(1.2);
+        border: solid 3px #aaa;
+        border-radius: 8px;
+      }
+
+      .caja_checkboxes_int{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+      }
+
+      #grafico {
+        margin-top: 50px;
+      }
+
+      .bisectriz {
+      	stroke: red;
+      	stroke-width: 2;
+      	stroke-dasharray: 10,5;
+      }
+
+
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        padding: 8px;
+        font: 14px sans-serif;
+        background: #F0EAB2;
+        border: solid 3px #aaa;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+
+      .title {
+        position: absolute;
+      	font-size: 30px;
+      	font-family: impact;
+        text-align: center;
+      }
+
+      .subtitle {
+      	font-size: 25px;
+      	font-family: sans-serif;
+      	font-weight: bold;
+      }
+
+      .tituloEjeX, .tituloEjeY{
+      	font-family: verdana;
+      	font-size: 20px;
+      }
+
+      .grid path{
+      	stroke-width: 0;
+      }
+
+      .grid{
+        opacity: 0.3;
+      }

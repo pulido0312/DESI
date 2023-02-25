@@ -1,0 +1,34 @@
+
+body {
+    align-items:center ;
+    height: 450px;
+    width: 450px;
+    }
+
+#div1 {
+    align-items: center;
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+    margin: 300;
+    }
+
+#img {
+    height:70%;
+    width:60%;
+    border: 1px solid black;
+    float:left;
+    }
+
+#img2 {
+    padding-right: 100px;
+    padding-top: 100px;
+    float: right;
+    }
+#img3 {
+    height:40px;
+    width:350px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 100px;
+    }
